@@ -4,30 +4,31 @@
 [![rank](https://make.fun/badge/news-image-20261122/ucupverz/world-in-one-day-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 [![reward](https://make.fun/badge/news-image-20261122/ucupverz/world-in-one-day-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 
-One page that sums up the world's news of **Sunday 22 November 2026**. Thirty-five stories from
-seven regions, a world map with a pin for each place, and every caption carrying the name of the
-outlet that reported it.
+One page that sums up the world's news of **Sunday 22 November 2026**. Twenty-nine stories from
+seven regions, each one carrying its own picture and its own label, and every picture credited to
+where it came from.
 
 ## What this is
 
-A single 1024 by 1024 image, laid out the way a newspaper front page is laid out, but built from
-horizontal bands that run edge to edge rather than from a grid of boxes. The masthead is a navy
-block carrying the date at the largest size on the page. Three lead bands follow, each one part
-photograph and part type, alternating left and right so the eye is pulled down the page. Then a
-four-up picture row, then a strip of six more stories, then the world map with a pin for every
-place, and a navy footer that repeats the date.
+A single 1024 by 1024 image, laid out as a run of horizontal bands rather than a grid of boxes.
+The masthead carries the date at the largest size on the page, with one sentence under it naming
+the day's biggest stories. Three lead bands follow, each a photograph running the full width with
+the type set on a paper panel over it, alternating left and right so the eye is pulled down the
+page. Then twelve cards in four rows, then fourteen briefs, then a wall of pictures across the
+foot, and a colophon.
 
-Ten of the stories wear a photograph. Each was lifted from the report that carried the story,
-from that page's own `og:image` metadata, so the picture shows the thing the caption describes.
-Nothing is drawn or generated, because an illustration of a story is a claim about what happened
-and a wrong picture is a factual error. Where a report carried no usable photograph the story is
-set in type alone, at a size that still reads, rather than filled with an image that does not
-show it.
+Every one of the twenty-nine stories carries a picture. Twenty-two are photographs, each lifted
+from the report that carried the story from that page's own `og:image` metadata, so the picture
+shows the thing the caption describes. The remaining seven had no photograph we could take
+honestly, so each carries a drawn panel instead: a depth scale for the quake, a toll panel for
+the fire, a lap ladder for the race, a price chart for the commodities. Each drawn panel says so
+in its own caption, in the picture itself, so nothing on the page pretends to be a photograph of
+an event that was not photographed for us.
 
-The type sizes are chosen so the page still reads at thumbnail scale. The leads use a 30-pixel
+The type sizes are chosen so the page still reads at thumbnail scale. The leads use a 29-pixel
 serif and survive being shrunk to 300 pixels across, and that is the test that decided most of
-the layout. A story that could not be read at that size was moved into the briefs, and a brief
-that could not be read at that size was cut rather than left on the page as noise.
+the layout. A story that could not be read at that size was moved into the cards, and a card that
+could not be read at that size was cut rather than left on the page as noise.
 
 ## The program
 

@@ -5,13 +5,22 @@ below match the numerals printed on the page, so a reader can take any caption a
 report behind it. Where a story was read through an aggregator, the aggregator is named in the
 same line as the original outlet.
 
-## Photographs
+## Pictures
 
-Ten of the stories carry a photograph. Each one was taken from the report that carried the story
-itself, from the page's own `og:image` metadata at the link listed below, and none was drawn or
-generated. A story whose report carried no usable picture is set in type alone rather than
-illustrated with something that does not show it. The photograph credit on each card names the
-outlet the picture came from, so a reader can trace any image back to its source page.
+Every one of the twenty-nine stories carries a picture. Twenty-two of them are photographs, and
+each photograph was taken from the report that carried the story itself, from that page's own
+`og:image` metadata at the link listed below, so the picture shows the thing the caption
+describes. A photograph is never borrowed from a different day or a different event.
+
+Nine drawn panels sit behind the other stories: numbers 6, 7, 8, 14, 17, 18, 20, 32 and 33.
+Their outlets served no usable photograph to us. Each panel is marked as a drawing in its own
+caption inside the image, and each shows a figure the story actually reports: the toll of the
+factory fire, the depth of the quake, the lap order of the race, the session's price moves. None
+of them invents a scene or a person, and none of them is presented as a photograph.
+
+Two of the drawn panels illustrate stories that also appear in the foot wall, so the count of
+pictures on the page runs slightly ahead of the count of stories. The wall is decoration: it
+repeats pictures already credited above and adds no claim of its own.
 
 
 **1. Kyiv region, Ukraine** — Russia fires 186 drones overnight. A five-storey block in the Kyiv
