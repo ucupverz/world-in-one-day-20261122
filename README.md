@@ -10,17 +10,24 @@ outlet that reported it.
 
 ## What this is
 
-A single 1024 by 1024 image, laid out the way a newspaper front page is laid out. Three leads
-run across the top with the biggest type on the page. Beneath them sits a world map, one pin per
-region, so a reader can see at a glance that the day was not one continent's day. Under the map
-come ten picture cards, and filling the remaining columns are twenty-two short briefs. The date
-sits at the very top where it cannot be missed, and the footer repeats it.
+A single 1024 by 1024 image, laid out the way a newspaper front page is laid out, but built from
+horizontal bands that run edge to edge rather than from a grid of boxes. The masthead is a navy
+block carrying the date at the largest size on the page. Three lead bands follow, each one part
+photograph and part type, alternating left and right so the eye is pulled down the page. Then a
+four-up picture row, then a strip of six more stories, then the world map with a pin for every
+place, and a navy footer that repeats the date.
 
-The type sizes are chosen so the page still reads at thumbnail scale: the leads survive being
-shrunk to 300 pixels wide, and that is the test that decided most of the layout. A story that
-could not be read at that size was moved into the briefs, and a brief that could not be read at
-that size was cut rather than left on the page as noise. Ten picture cards carry the stories
-that a caption alone would have flattened.
+Ten of the stories wear a photograph. Each was lifted from the report that carried the story,
+from that page's own `og:image` metadata, so the picture shows the thing the caption describes.
+Nothing is drawn or generated, because an illustration of a story is a claim about what happened
+and a wrong picture is a factual error. Where a report carried no usable photograph the story is
+set in type alone, at a size that still reads, rather than filled with an image that does not
+show it.
+
+The type sizes are chosen so the page still reads at thumbnail scale. The leads use a 30-pixel
+serif and survive being shrunk to 300 pixels across, and that is the test that decided most of
+the layout. A story that could not be read at that size was moved into the briefs, and a brief
+that could not be read at that size was cut rather than left on the page as noise.
 
 ## The program
 

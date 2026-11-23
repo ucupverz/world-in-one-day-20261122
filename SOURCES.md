@@ -5,6 +5,15 @@ below match the numerals printed on the page, so a reader can take any caption a
 report behind it. Where a story was read through an aggregator, the aggregator is named in the
 same line as the original outlet.
 
+## Photographs
+
+Ten of the stories carry a photograph. Each one was taken from the report that carried the story
+itself, from the page's own `og:image` metadata at the link listed below, and none was drawn or
+generated. A story whose report carried no usable picture is set in type alone rather than
+illustrated with something that does not show it. The photograph credit on each card names the
+outlet the picture came from, so a reader can trace any image back to its source page.
+
+
 **1. Kyiv region, Ukraine** — Russia fires 186 drones overnight. A five-storey block in the Kyiv
 region loses every floor, and two people are hurt, a teenager among them.
 - RBC Ukraine, read on MSN — https://www.msn.com/en-ca/news/other/russia-strikes-ukraine-with-186-drones-overnight-air-defense-s-work-reported/ar-AA2hXEI6
